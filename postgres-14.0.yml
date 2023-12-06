@@ -6,7 +6,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: yeomc
-      POSTGRES_PASSWORD: password!@#
+      POSTGRES_PASSWORD: password
       POSTGRES_DB: yeomc
     container_name: postgres-14-alpine
     ports:
